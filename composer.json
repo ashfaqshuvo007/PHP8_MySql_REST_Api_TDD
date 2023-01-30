@@ -1,0 +1,20 @@
+{
+    "name": "ashfaqhu/php8_tdd_api",
+    "description": "Simple PHP8 MySql Rest Api using TDD",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "fakerphp/faker": "^1.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ashfaqhu\\Php8TddApi\\": "src/"
+        },
+        "classmap": ["src/"] 
+    },
+    "require": {},
+    "autoload-dev": {
+        "psr-4": {
+            "Ashfaqhu\\Php8TddApi\\Tests\\": "tests/"
+        }
+    }
+}
